@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.box1, .box2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/image.avif");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+article {
+    padding: 10px;
+}
+
+.article1{
+    color: white;
+    width: 50%;
+}
+.article2{
+    color: black;
+    width: 80%;
+}
+
+h1{
+    font-family: Georgia;
+    font-size: 34px;
+}
+
+#header1 {
+    color: rgb(247, 226, 111);
+    font-size: 40px;
+    text-shadow: 0 0 2px white;
+}
+
+#header2 {
+    margin: 10px;
+    line-height: 35px;
+}
+
+p{
+    margin: 20px 0px;
+    font-family: Helvetica;
+}
+
+button{
+    background-color: rgb(78, 36, 36);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button a{
+    color: white;
+}
+
+#serpantologiya{
+    color: rgb(194, 183, 27);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 17px;
+    text-shadow: 0 0 3px black;
+}
+
+.box2{
+    background-color: rgb(248, 250, 148);
+    height: 200vh;
+}
+
+.box2 p{
+    text-align: justify;
+}
+
+img {
+    width: 600px;
+    margin: 10px 0px;
+}
+
+b{
+    display: block;
+}
